@@ -21,6 +21,8 @@ gem "rack", ">= 2.0.8"
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  gem "actionview", ">= 6.0.3.3"
+  gem "actionpack", ">= 6.0.3.2"
 end
 
 group :development, :test do
